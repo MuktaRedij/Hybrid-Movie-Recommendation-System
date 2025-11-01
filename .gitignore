@@ -1,123 +1,82 @@
-# ==============================
-# Python Cache / Build Artifacts
-# ==============================
+# ============ Python Cache ============
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / Packaging
-build/
-dist/
-*.egg-info/
-.eggs/
-*.egg
-MANIFEST
-
-# Virtual Environments
-env/
+# ============ Virtual Environments ============
+.venv/
 venv/
 ENV/
-.venv/
+env/
 env.bak/
 venv.bak/
-.pdm-python
-.pixi
 
-# ==============================
-# IDE / Editor Settings
-# ==============================
-# VS Code
+# ============ IDE / Editors ============
 .vscode/
-# PyCharm / JetBrains
 .idea/
-# Jupyter
 .ipynb_checkpoints/
-# Spyder
 .spyderproject
 .spyproject
-# Rope
 .ropeproject
 
-# ==============================
-# OS Files
-# ==============================
+# ============ OS Files ============
 .DS_Store
 Thumbs.db
 
-# ==============================
-# Logs / Reports
-# ==============================
-*.log
-*.tmp
-*.bak
-*.swp
-
-# ==============================
-# Unit Test / Coverage
-# ==============================
-.tox/
-.nox/
-.coverage
-.pytest_cache/
-.coverage.*
-htmlcov/
-.cache/
-nosetests.xml
-coverage.xml
-
-# ==============================
-# Streamlit Cache
-# ==============================
+# ============ Streamlit / Cache ============
 .streamlit/
 .cache/
 .cache_data/
 .cache_resource/
 
-# ==============================
-# Environment / Config Files
-# ==============================
+# ============ Environment / Config ============
 .env
 .envrc
 *.ini
 *.cfg
 *.toml
 
-# ==============================
-# Model / Data Artifacts
-# ==============================
-*.pkl
-*.sav
-*.model
-*.h5
-*.db
-*.sqlite3
-*.sql
-*.json
-*.csv
-*.xlsx
-
-# ==============================
-# Local Datasets / Backup
-# ==============================
+# ============ Data and Model Artifacts ============
 data/
-datasets/
-backup/
-temp/
+models/
+preprocessed_dataset/
+*.pkl
+*.csv
+*.sql
+*.db
+*.json
+*.xlsx
 *.zip
 *.rar
+*.h5
+*.sav
+backup/
+temp/
 
-# ==============================
-# Reports and Documents
-# ==============================
+# ============ Logs / Reports ============
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ============ Documents ============
 *.pdf
 *.docx
 *.pptx
 *.rtf
 
-# ==============================
-# Misc
-# ==============================
-# Marimo
+# ============ Tests / Coverage ============
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+.coverage.*
+.cache/
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# ============ Misc ============
 marimo/_static/
 marimo/_lsp/
 __marimo__/
