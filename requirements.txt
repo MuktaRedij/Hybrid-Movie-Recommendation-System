@@ -1,0 +1,18 @@
+# Core libraries
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+surprise==0.1
+requests==2.32.3
+SQLAlchemy==2.0.30
+PyMySQL==1.1.0
+streamlit==1.37.0
+
+# Data visualization (optional)
+matplotlib==3.9.0
+
+# Utility & environment
+python-dotenv==1.0.1
+
+# Optional: for model saving/loading or compression
+joblib==1.4.2
